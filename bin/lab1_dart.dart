@@ -1,8 +1,7 @@
 import 'package:lab1_dart/lab1_dart.dart' as lab1_dart;
 
 void main() {
-List<String> fruits2 = ['яблоко', 'банан', 'груша'];
-for (var fruit in fruits2) {
-  print(fruit);
-} 
+List<int> numbers = [3, 1, 4, 1, 5, 9];
+numbers.sort((a, b) => b - a);
+print(numbers);
 }
